@@ -1,3 +1,96 @@
 body {
-    padding-top: 5rem;
+  padding-top: 5rem;
+  background-color: #d5e9ea;
 }
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+  width:200em;
+  margin-left: 10%;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+  background-color: #5ea065;
+  border-radius:8px;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+  border: none;
+  margin-left: 35%;
+ 
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+  color:white;
+}
+
+.profile-usertitle-name {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-about {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profiledata{
+  height:5em;
+  width:70%;
+  margin-left: 10em;
+}
+#bottom-container{
+  border: none;
+  background-color: white;
+  padding:50px;
+}
+.list1{
+  list-style-type: none;
+}
+.connections{
+  margin-right:5em;
+  float:left;
+}
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 30px;
+  margin-left:5%;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+  background-color: #47e542;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
